@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Relax Point </title>
+  <link rel="icon" type="image/x-icon" href="pics\travelll.png">
+
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="headerFooter.css">
+    <link rel="stylesheet" type="text/css" href="button.css">
+    <link rel="stylesheet" type="text/css" href="socialmediaButton.css">
+    <link rel="stylesheet" type="text/css" href="sidenavigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                              
+                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                                <script>
+                                $(document).ready(function(){
+                                  // Add smooth scrolling to all links
+                                  $("a").on('click', function(event) {
+
+                                    // Make sure this.hash has a value before overriding default behavior
+                                    if (this.hash !== "") {
+                                      // Prevent default anchor click behavior
+                                      event.preventDefault();
+
+                                      // Store hash
+                                      var hash = this.hash;
+
+                                      // Using jQuery's animate() method to add smooth page scroll
+                                      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                                      $('html, body').animate({
+                                        scrollTop: $(hash).offset().top
+                                      }, 800, function(){
+                                   
+                                        // Add hash (#) to URL when done scrolling (default click behavior)
+                                        window.location.hash = hash;
+                                      });
+                                    } // End if
+                                  });
+                                });
+                                </script>
+            <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            function myFunction() {
+              var x = document.getElementById("myDIV");
+              var y = document.getElementById("grid-item"); 
+              if (x.style.display === "none") {
+                x.style.display = "grid";
+                y.style.display = "block";
+              } else {
+                x.style.display = "none";
+                y.style.display = "none";
+              }
+            }
+            </script>
+            <style>
+                .fixed-header, .fixed-footer{        
+                    position: fixed;
+                    padding: 10px 0;
+                    color: #fff;
+                }
+                .fixed-header{
+                  
+                  text-align: left;
+                  width: 100%;
+                    top: 0;
+                }
+                .fixed-footer{
+                  background-color: transparent; 
+                  width: 100%;
+                  text-align: right;
+                    bottom: 0;
+                }
+                #notice{
+                  opacity: 90%;
+                  background-color: transparent;
+                  border: 3px;
+                  position: absolute;
+                  top:90px;
+                  right: 80px;
+                  width:30%;
+                  height: 20%;  
+                }
+                #myDIV { 
+                  background-color: grey;
+                  display: grid;
+                  position: absolute;
+                  top: 850px;
+                  left: 150px;
+                  
+                  background-image: url(pics/ground4.png);
+                  background-size: cover ;
+          
+                  width: 75%;
+                  height:100%;
+                  margin-top: 110px;
+
+                  grid-template-columns: auto auto auto;
+                  padding: 10px;
+                }
+                
+                .grid-item {
+                  transition: width 2s, height 2s, transform 2s;
+                  width: 10%;
+                  height: 10%;
+                  background-size: cover;
+                  background-color: rgba(255, 255, 255, 0.8);
+                  border: 1px solid rgba(0, 0, 0, 0.8);
+                  padding: 10px;
+                  text-align: center;
+                }
+                .grid-item:hover{
+                    width: 90%;
+                    height: 90%;
+                    background-color: #4dff4d4;
+                    -webkit-transform: rotate(180deg); /* Safari */
+                    transform: rotate(360deg);
+                }
+                #smallicon{
+                  width: 3%;
+                  height: 3%;
+                }
+                .name{
+                  background-color: transparent;
+                  position: absolute;
+                    top: 90px;
+                    left: 280px;
+                }
+            </style>
+
+</head>
+<body bgcolor="black" >
+
+            
+    <div class="fixed-header">
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="aboutus.html">About</a>
+                <a href="maps.html">Services</a>
+                <a href="#">Clients</a>
+                <a href="contactus.html">Contact</a>
+                <a href="login.html">LogOut</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <div class="container">
+            <nav>
+                <a href="start.html">Home</a>                        
+                <a href="#">Hotels in India</a> 
+                <a href="#indiantours">Tours in India</a>
+                <a href="#internationaltours">International Tours</a>
+                <a href="#">Transport</a>
+                <a href="#contactdetails">Customer Support</a>
+            </nav>
+        </div>
+    </div>
+
+    <div id="notice">
+        <h3 style="color: white; font-family: Brush Script MT, Brush Script Std, cursive ;">Once A Year, Go Some Places You’ve Never Been Before.<br>By : Dalali Lama
+        </h3>
+        <p style="color: white;">Hello Peripatetic....Welcome to our new Tours and Travels website ! <br>Get the best with us.
+              Relax tours and travels is one of the best travel agency providing Tour Packages and many more services on reasonable price. We provide comprehensive travel solutions for individual or family travel, adventure travel tours, safaris, biking trips, luxury tours, educational travel tours.
+              Now, we offer complete holiday services including Tour Packages, Flight Tickets, Cruise Lines and many more. We strive toward to specialise ourselves in Business Travels, Leisure Travel & Pilgrimage Travel.
+              Now, we offer complete holiday services including Tour Packages, Flight Tickets, Cruise Lines and many more. We strive toward to specialise ourselves in Business Travels, Leisure Travel & Pilgrimage Travel.
+
+              Explore our “Tour Packages” section to get to know more about various international destinations like Nepal, Bhutan, Singapore, Malaysia, Thailand, Indonesia, Mauritius, Maldives, Egypt, Europe & America & our domestic Indian destinations like Andman & Nicobar, Goa, Gujrat, Himanchal, Kerala, Leh & Laddakh, Madhya Pradesh, Maharastra, North East, Rajasthan, Sikkim Darjeeling, South India, Uttar Pradesh & Uttrakhand.
+
+              We came across some great ideas of great people for travel which we love to share here with our traveller & believe, it will definitely change your perception & surely your life.
+        </p>
+
+    </div>
+    <div id="myDIV">
+
+      <div class="grid-item"><img src="pics/1.jpg"><h3 style="color: white">TajMahal</h3></div>
+      <div class="grid-item"><img src="pics/2.jpg"><h3 style="color: white">JatayuPark</h3></div>
+      <div class="grid-item"><img src="pics/3.jpg"><h3 style="color: white">Lehdakh</h3></div>  
+      <div class="grid-item"><img src="pics/4.jpg"><h3 style="color: white">Kerala</h3></div>
+      <div class="grid-item"><img src="pics/5.jpg"><h3 style="color: white">GatewayOfIndia</h3></div>
+      <div class="grid-item"><img src="pics/6.jpg"><h3 style="color: white">Varanasi</h3></div>  
+      <div class="grid-item"><img src="pics/7.jpg"><h3 style="color: white">RavanglaBuddha</h3></div>
+      <div class="grid-item"><img src="pics/8.jpg"><h3 style="color: white">PotalaPalace</h3></div>
+      <div class="grid-item"><img src="pics/9.jpg"><h3 style="color: white">Manali</h3></div> 
+
+    </div>
+    <div id="indiantours" style="position: absolute;top:830px;">
+      <h2 style="color: white;">India Tours............</h2>
+    </div>
+    <div id="internationaltours" style="position: absolute;top:1780px;">
+      <h2 style="color: white;">International Tours....</h2>
+    </div>
+    <div id="myDIV" style="top: 1800px;">
+
+      <div class="grid-item"><img src="pics/11.jpg"><h3 style="color: white">EiffelTower</h3></div>
+      <div class="grid-item"><img src="pics/12.jpg"><h3 style="color: white">London</h3></div>
+      <div class="grid-item"><img src="pics/13.jpg"><h3 style="color: white">Italy</h3></div>  
+      <div class="grid-item"><img src="pics/14.jpg"><h3 style="color: white">StatueOfLIberty</h3></div>
+      <div class="grid-item"><img src="pics/15.jpg"><h3 style="color: white">Egypt</h3></div>
+      <div class="grid-item"><img src="pics/16.jpg"><h3 style="color: white">Iceland</h3></div>  
+      <div class="grid-item"><img src="pics/17.jpg"><h3 style="color: white">Singapore</h3></div>
+      <div class="grid-item"><img src="pics/18.jpg"><h3 style="color: white">RioDeJanerio</h3></div>
+      <div class="grid-item"><img src="pics/19.jpg"><h3 style="color: white">Australia</h3></div> 
+
+    </div>
+
+    <div class="name">
+            <h2>Tours <br> &<br> Travels</h2>
+            <a href="#myDIV"><button class="button"><span>Destinations</span></button></a>
+
+    </div>
+
+    <div id="contactdetails" style="position: absolute;top:3000px; background-color: #737373  ;text-align: center; width: 68.75%;">
+      
+        <h3 style="color: white;font-family: arial;">Get In Touch</h3> 
+        <p style="color:white;"> <img id="smallicon" src="pics/location.png">Relax Point TOURS & TRAVELS
+        Shop No 12 (S), Kanchanpur Tower,
+        Airport Road, Mohaddipur,
+        Gorakhpur
+        Uttar Pradesh. Pin – 273008<br><br><img id="smallicon" src="pics/phone.png"> +919876543210 <br> +917894561230 <br><br> <img id="smallicon" src="pics/message.png">sales@relaxpointtoursandtravels.com <br>relax.point@gmail.com<br></p>  
+     
+
+        <h3 style="color: white;font-family: arial;">Quality Policy</h3>
+        <p style="color:white;">We care every step of the guest with –
+        Provision with the best services,
+        Well-done tour arrangements,
+        Quick responses to all urgent situations,
+        24/7 hours available for communication,
+        Best Value for money tour programs.
+        Special discounted packages for Corporate.<br><br>Leave all your travel worries to us and enjoy your holiday with our customized & tailor made tour programs especially designed for you.<br>© Copyright 2018 Relax Point Tours & Travels. All Rights Reserved. Designed & Developed by OPTIMARK SERVICES<br>
+        </p>
+        <p style="color: white;font-family: arial; font-size: 9.5px;">Designed & Developed by killerCLAWS</p>  
+        
+    </div>
+    <div style="position: absolute;top:3000px; background-color: grey  ;text-align: center; width: 30%; right: 0px; height: 59%;">
+      <iframe width="370" height="220" src="https://www.youtube.com/embed/tgbNymZ7vqY" ></iframe>
+    </div>>
+
+    <div class="logo">
+        <img src="pics/travelll.png" width=42% height=42%>
+    </div>
+
+
+    <div class="fixed-footer">
+        <h3 style="color: white;font-family: arial;">Follow Us On :</h3>
+        <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/login" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://plus.google.com/discover" class="fa fa-google" target="_blank"></a>
+        <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin" target="_blank"></a>
+        <a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram" target="_blank"></a>
+        <div class="container">Copyright &copy; 2018 TravelCompany</div>        
+    </div>
+
+</body>
+</html>>

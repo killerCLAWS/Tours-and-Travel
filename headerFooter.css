@@ -1,0 +1,39 @@
+body{        
+        padding-top: 700px;
+        padding-bottom: 0px;
+        background-image: url("pics/venice.jpg") ;
+        background-color: black;
+  		height: 100%; 
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+    }
+A:active { COLOR: yellow; background-color:#9999ff ; TEXT-DECORATION: none }
+A:hover { COLOR: #9999ff; background-color: #000000 }    
+    
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    nav a{
+    	size: 50px ;
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+
+    h2{
+    	font-family: Brush Script MT, Brush Script Std, cursive ;
+    	font-size: 50px ;
+    	color: #669900 ;
+    }
+
+.logo{
+	position: absolute;
+  	top: 160px;
+  	left: 480px;
+}
+button{
+	font-style: bold;
+}
